@@ -60,7 +60,6 @@ The severity of a prompt injection attack can vary, influenced by factors like t
 ## Research Papers
 
 - [Not what you've signed up for: Compromising Real-World LLM-Integrated Applications with Indirect Prompt Injection](https://arxiv.org/abs/2302.12173) - This paper explores the concept of Indirect Prompt Injection attacks on Large Language Models (LLMs) through their integration with various applications. It identifies significant security risks, including remote data theft and ecosystem contamination, present in both real-world and synthetic applications.
-
 - [Universal and Transferable Adversarial Attacks on Aligned Language Models](https://arxiv.org/abs/2307.15043) - This paper introduces a simple and efficient attack method that enables aligned language models to generate objectionable content with high probability, highlighting the need for improved prevention techniques in large language models. The generated adversarial prompts are found to be transferable across various models and interfaces, raising important concerns about controlling objectionable information in such systems.
 - [The Landscape of Prompt Injection Threats in LLM Agents (SoK)](https://arxiv.org/abs/2602.10453) - Feb 2026 systematization-of-knowledge paper with a unified taxonomy covering attack payload strategies (heuristic vs. optimisation-based) and defense intervention stages (text, model, execution). Introduces the AgentPI benchmark for context-dependent agent tasks that all prior benchmarks ignored.
 - [The Attacker Moves Second: Stronger Adaptive Attacks Bypass Defenses Against LLM Jailbreaks and Prompt Injections](https://arxiv.org/abs/2510.09023) - Oct 2025 paper systematically breaking 12 published defenses using gradient descent, RL, random search, and human-guided exploration. Most defenses originally claimed near-zero attack success rates; adaptive attacks exceeded 90% against all of them.
@@ -85,7 +84,6 @@ The severity of a prompt injection attack can vary, influenced by factors like t
 
 ## CTF
 
-- [Promptalanche](https://ctf.fondu.ai/) - As well as traditional challenges, this CTF also introduce scenarios that mimic agents in real-world applications.
 - [Gandalf](https://gandalf.lakera.ai/) - Your goal is to make Gandalf reveal the secret password for each level. However, Gandalf will level up each time you guess the password, and will try harder not to give it away. Can you beat level 7? (There is a bonus level 8).
 - [ChatGPT with Browsing is drunk! There is more to it than you might expect at first glance](https://twitter.com/KGreshake/status/1664420397117317124) - This riddle requires you to have ChatGPT Plus access and enable the Browsing mode in Settings->Beta Features.
 - [Damn Vulnerable LLM Agent](https://github.com/WithSecureLabs/damn-vulnerable-llm-agent) - A sample chatbot powered by a ReAct agent, implemented with Langchain. It's designed to be an educational tool for security researchers, developers, and enthusiasts to understand and experiment with prompt injection attacks in ReAct agents.
